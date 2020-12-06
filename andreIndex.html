@@ -27,6 +27,9 @@
                         <li class="nav-item">
                           <a class="nav-link" href="#">Resume</a>
                         </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Contact</a>
+                        </li>
                       </ul>
                 </div>
             </div>
@@ -34,14 +37,19 @@
         <!-- Main hub & about me -->
         <section class="introduction">
             <div class="textbox">
-                <div class="locker">
-                    <div class="walltext">
-                        <div class="title">
-                            <h2 id="junior">Jr. Front-End dev</h2>
-                        </div>
-                        <p>I am a self-taught  front-end developer, a devoted learner and ambitious person who doesn’t back down when faced with a problem. I am constantly learning and experimenting with new technologies which gives me the edge needed in order to design new and reliable products. I started my web developing journey with the beginning of the 2020 pandemic and I quickly grew fond of the front-end side of this process. Soon enough I realised there might be a future for me in this industry. My goal is to secure a position as a front-end engineer and further grow in this domain.</p>
-                    </div>
+              <div class="frontpage">
+                <div class="metext">
+                  <span id="welcome">Welcome to my portfolio!</span>
+                  <div class="topborder"></div>
+                  <div class="devtitle">
+                    <h4 class="jrdev">Jr. Front-End Developer</h4>
+                  </div>
+                  <div class="shorttext">
+                    <p class="aboutmedesc">I am a self-taught web developer. I am more focused on front-end engineering but I worked with both front and back end sides of the web.</p>
+                  </div>
+                  <div class="bottomborder"></div>
                 </div>
+              </div>
                 <div class="containerofbtns">
                     <div class="mainBtns">
                         <button id="moreaboutme" type="button" class="infoBtns">More <span id="btnSpan1">Find out more about me</span></button>
@@ -50,7 +58,7 @@
                         <button id="resume" type="button" class="infoBtns">Resume <span id="btnSpan2">Check out my resume</span></button>
                     </div>
                     <div class="mainBtns">
-                        <button id="viewSrc" type="button" class="infoBtns">viewSource <span id="btnSpan3">View site code</span></button>
+                        <button id="viewSrc" onclick="location.href='https://github.com/andreialexc30/andreiCaia'" type="button" class="infoBtns">viewSource <span id="btnSpan3">View site code</span></button>
                     </div>
                 </div>
             </div>
@@ -79,6 +87,9 @@
                                   Web based app that allows you to look up the recipe for your desired dish.
                                 </p>
                                 <p class="card-description">
+                                  <a class="card-link" href='https://github.com/andreialexc30/forkifyapp'><i class="cardIcon fab fa-github"></i></a>
+                                </p>
+                                <p class="card-description">
                                   Deployed on GitHub.
                                 </p>
                               </div>
@@ -92,7 +103,10 @@
                               </div>
                               <div class="back card-block">
                                 <p class="card-description">
-                                  App that keeps track of your monthly budget.
+                                  Web based app that keeps track of your monthly budget.
+                                </p>
+                                <p class="card-description">
+                                  <a class="card-link" href='https://github.com/andreialexc30/Budget_app'><i class="cardIcon fab fa-github"></i></a>
                                 </p>
                                 <p class="card-description">
                                   Deployed on GitHub.
@@ -108,7 +122,10 @@
                               </div>
                               <div class="back card-block">
                                 <p class="card-description">
-                                  App that allows you to look up the weather in your area.
+                                  Web based app that allows you to look up the weather in your area.
+                                </p>
+                                <p class="card-description">
+                                  <a class="card-link" href='https://github.com/andreialexc30/weatherapp'><i class="cardIcon fab fa-github"></i></a>
                                 </p>
                                 <p class="card-description">
                                   Code up on GitHub. Deployed on Heroku.
@@ -127,6 +144,9 @@
                                   Tech blog replicated from scratch.
                                 </p>
                                 <p class="card-description">
+                                  <a class="card-link" href='https://github.com/andreialexc30/blogsite'><i class="cardIcon fab fa-github"></i></a>
+                                </p>
+                                <p class="card-description">
                                   Deployed on GitHub.
                                 </p>
                               </div>
@@ -143,6 +163,9 @@
                                   Dice game that you can play in the browser.
                                 </p>
                                 <p class="card-description">
+                                  <a class="card-link" href='https://github.com/andreialexc30/pig_game'><i class="cardIcon fab fa-github"></i></a>
+                                </p>
+                                <p class="card-description">
                                   Deployed on GitHub.
                                 </p>
                               </div>
@@ -157,6 +180,9 @@
                               <div class="back card-block">
                                 <p class="card-description">
                                   Pipboy interface from the Fallout4 videogame.
+                                </p>
+                                <p class="card-description">
+                                  <a class="card-link" href='https://github.com/andreialexc30/pipboy'><i class="cardIcon fab fa-github"></i></a>
                                 </p>
                                 <p class="card-description">
                                   Deployed on GitHub.
@@ -203,8 +229,8 @@
                         <h3 id="tools_title">Tools I'm familiar with</h3>
                         <div class="tools">
                         <p class="tool">NPM & yarn</p>
-                        <p class="tool">Babel</p>
-                        <p class="tool">Webpack</p>
+                        <p class="tool">Postman</p>
+                        <p class="tool">REST API</p>
                         <p class="tool">Express</p>
                         <p class="tool">Handlebars</p>
                         <p class="tool">Mongoose</p>
@@ -213,36 +239,33 @@
                 </div>
             </div>
             <!-- Contact area -->
-            <div class="contact">
-                <div class="contact_box">
-                    <div class="contact_contain">
-                        <div class="contact_title">
-                             <h3 id="contactTitle">Have I <span class="convinced">convinced</span> <em>you</em>? Let's talk..</h3> 
-                        </div>
-                        <div class="contact_info">
-                            <ul class="contact_list">
-                                <li class="list_item">
-                                    <a class="contact_link" href="https://github.com/andreialexc30"><i class="contactIcon fab fa-github"></i></a>
-                                </li>
-                                <li class="list_item">
-                                    <a class="contact_link" href="mailto:andrei.alexandrucaia@gmail.com"><i class="contactIcon fas fa-envelope"></i></a>
-                                </li>
-                                <li class="list_item">
-                                    <a class="contact_link" href="https://www.linkedin.com/in/andrei-alexandru-caia-9535921b7/"><i class="contactIcon fab fa-linkedin"></i></a>
-                                </li>
-                                <li class="list_item">
-                                    <a class="contact_link" href="https://www.freecodecamp.org/andreialexandrucaia"><i class="contactIcon fab fa-free-code-camp"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+            <div class="contactbox">
+              <div class="contactborder">
+                <div class="footer_external">
+                  <ul class="contact_list">
+                    <li class="contact_item">
+                      <a class="externalink" href="">
+                        CONTACT
+                      </a>
+                    </li>
+                    <li class="contact_item">
+                      <a class="externalink" href="">
+                        LINKED IN
+                      </a>
+                    </li>
+                    <li class="contact_item">
+                      <a class="externalink" href="mailto:andrei.alexandrucaia@gmail.com">
+                        MAIL
+                      </a>
+                    </li>
+                  </ul>
                 </div>
-                <!-- Arrow button that closes the extension and returns you back to the main hub -->
-                <div class="button_bottom">
-                    <div class="button_container">
-                        <button type="button" class="button arrowBottom"><a class="button_link"><i class="fas fa-chevron-up"></i></a></button>
-                    </div>
+              </div>
+              <div class="button_bottom">
+                <div class="button_container">
+                    <button type="button" class="button arrowBottom"><a class="contact_link"><i class="fas fa-chevron-up"></i></a></button>
                 </div>
+            </div>
             </div>
         </section>
         <!-- Simple footer -->
