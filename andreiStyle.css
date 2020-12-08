@@ -346,7 +346,6 @@ header {
     justify-content: center;
     align-items: center;
     background: #fbfbfb;
-    border-right: 5px solid #69656ac4;
     height: 35em;
 }
 
@@ -491,20 +490,30 @@ iframe {
     margin: 1em;
 } 
 
+.arrowbtnbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fbfbfb;
+}
+
 .contactbox {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 5.5em;
-    background: #fbfbfb;
+    padding: 1.5em;
+    margin: 1.5em;
+    font-size: 20px;
 }
 
 .contactborder {
-    border-top: 2px solid #bdbabab4;
+    border-top: 2px solid #f4efefb8;
     width: 65%;
     text-align: center;
     margin: 1em;
+    padding: 1.5em;
 }
 
 .contact_list {
@@ -519,7 +528,7 @@ iframe {
 .externalink {
     text-decoration: none;
     letter-spacing: .2px;
-    color: #918787d0;
+    color: #fff;
 }
 
 .externalink:hover {
@@ -694,6 +703,10 @@ img {
 
 .buttonContainer {
     display: flex;
+}
+
+.button_container {
+    padding-bottom: 1.5em;
 }
 
 .caseButton {
@@ -923,6 +936,89 @@ img {
     border-color: #020202;
 }
 
+
+/* Contact page */
+.contact {
+    padding: 5em;
+    background: #313030f1;
+}
+
+.reachme {
+    margin: 1em;
+    padding: 1em;
+    color: white;
+    border-bottom: 2px solid #b7aaaae6;
+}
+
+#contactme {
+    font-size: 2.5em
+}
+
+#informalcontactme {
+    font-size: 1.8em;
+}
+
+.contactmeformalwrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactcontainer {
+    display: flex;
+}
+
+.contacttile {
+    padding: 2em;
+    background: #fff8f8f7;
+    margin: 1em;
+    border-radius: 2.5px;
+    font-size: 1.25em;
+    box-shadow: 5px 2px 2.5px 2px #868686b5;
+}
+
+.informalreachme {
+    margin-top: 5em;
+    padding: 1em;
+    width: 40%;
+    color: white;
+    border-bottom: 2px solid #b7aaaae6;
+}
+
+.contactmeinformalwrap {
+    margin: 2em;
+    padding: 1em;
+}
+
+.informaltile {
+    padding: 2em;
+    background: #fff8f8f7;
+    width: 40%;
+    margin: 1em;
+    border-radius: 2.5px;
+    font-size: 1.15em;
+    box-shadow: 5px 2px 2.5px 2px #868686b5;
+}
+
+.contactIcon {
+    font-size: 1.5em;
+    padding-right: .2em;
+}
+
+.padding {
+    padding-right: .5em;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: rgba(63, 180, 248, 0.904);
+}
+
+.contact-link:hover {
+    text-decoration: none;
+    color: rgba(35, 139, 199, 0.904);
+}
 /* #9b079b good shade of purple
 #201f1f good border shade
  #0d0d0d good black shade
