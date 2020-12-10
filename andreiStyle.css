@@ -165,7 +165,7 @@ header {
 .infoBtns {
     background: #4948489e;
     letter-spacing: 1.15px;
-    height: 2.15em;
+    height: 2em;
     border: 2px solid #ffffff;
     border-radius: 5px;
     color: #fff;
@@ -179,6 +179,7 @@ header {
     font-size: 15px;
     color: #000000b8;
     visibility: hidden;
+    margin-top: -10px;
 }
 
 .infoBtns:hover {
@@ -898,7 +899,16 @@ img {
 }
 
 .skills_item {
-    margin: 1em 1em;
+    margin: 1em .5em;
+    background: #6e6ec4d6;
+    padding-left: .20em;
+    padding-right: .20em;
+    border-radius: 1em;
+    text-align: center;
+}
+
+.webitem {
+    margin: 5px;
 }
 
 .bluedev {
@@ -943,6 +953,14 @@ img {
     background: #313030f1;
 }
 
+.contactmebg {
+    background: #332c2cb3;
+    border-radius: .5em;
+    padding-bottom: 4em;
+    padding-top: 1.5em;
+    box-shadow: 2px 2px 25px 8px #2b2828
+}
+
 .reachme {
     margin: 1em;
     padding: 1em;
@@ -971,11 +989,26 @@ img {
 
 .contacttile {
     padding: 2em;
-    background: #fff8f8f7;
+    /* background: #fff8f8f7; */
     margin: 1em;
     border-radius: 2.5px;
     font-size: 1.25em;
     box-shadow: 5px 2px 2.5px 2px #868686b5;
+    background: linear-gradient(
+        white, white 50%,#72c7f0 50%,#72c7f0
+    );
+    transition: all 0.2s ease;
+    background-size: 100% 200%;
+}
+
+.contacttile:hover {
+    background-position: 100% 100%;
+}
+
+.contacttile:hover > a{
+    color: #fff;
+    text-decoration: none;
+    font-style: italic;
 }
 
 .informalreachme {
@@ -993,12 +1026,27 @@ img {
 
 .informaltile {
     padding: 2em;
-    background: #fff8f8f7;
-    width: 40%;
+    /* background: #fff8f8f7; */
+    /* width: 40%; */
     margin: 1em;
     border-radius: 2.5px;
     font-size: 1.15em;
     box-shadow: 5px 2px 2.5px 2px #868686b5;
+    background: linear-gradient(
+        white, white 50%,#72c7f0 50%,#72c7f0
+    );
+    transition: all 0.2s ease;
+    background-size: 100% 200%;
+}
+
+.informaltile:hover {
+    background-position: 100% 100%;
+}
+
+.informaltile:hover > a{
+    color: #fff;
+    text-decoration: none;
+    font-style: italic;
 }
 
 .contactIcon {
@@ -1015,10 +1063,51 @@ img {
     color: rgba(63, 180, 248, 0.904);
 }
 
-.contact-link:hover {
-    text-decoration: none;
-    color: rgba(35, 139, 199, 0.904);
+.flexboxwrap {
+    display: flex;
+    justify-content: space-between;
 }
+
+.index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2em;
+    padding-right: 2em;
+    padding-left: 10em;
+    padding-bottom: 2em;
+    border-left: 2.5px solid #fff;
+}
+
+.indextitle {
+    margin-bottom: 2.5em;
+    width: 290px;
+    text-align: center;
+    color: #fff;
+}
+
+.indexitem {
+    margin: 1em;
+    background: #fff;
+    width: 200px;
+    height: 50px;
+    border-radius: 2em;
+    border: none;
+    box-shadow: 1px 1px 10px 2px #0f0c0c;
+    font-size: 1.5em;
+}
+
+#siteIndex {
+    font-size: 3.5em;
+}
+
+.indexitem:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 2px 20px 4px #0f0c0c;
+    color: rgba(63, 180, 248, 0.904);
+}
+
 /* #9b079b good shade of purple
 #201f1f good border shade
  #0d0d0d good black shade
