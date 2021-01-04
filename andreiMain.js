@@ -2,6 +2,16 @@ let spanOne = document.getElementById('btnSpan1');
 let spanTwo = document.getElementById('btnSpan2');
 let spanThree = document.getElementById('btnSpan3');
 let section = document.getElementById('extendedjs');
+const aboutMe = document.querySelector('#moreaboutme');
+const resume = document.querySelector('#resume');
+const viewSrc = document.querySelector('#viewSrc');
+
+$(document).ready(function(){
+    $('.menu-toggle').click(function() {
+        $('.nav').toggleClass('nav--open');
+        $(this).toggleClass('open')
+    })
+})
 
 document.querySelector('.arrowBtn').addEventListener('click', () => {
     if(section.style.display === 'block') {
@@ -19,7 +29,7 @@ document.querySelector('.arrowBottom').addEventListener('click', () => {
     }
 })
 
-document.querySelector('#moreaboutme').addEventListener('mouseover', () => {
+aboutMe.addEventListener('mouseover', () => {
     if(spanOne.style.visibility === 'visible') {
         spanOne.style.visibility = 'hidden';
     }else {
@@ -27,7 +37,7 @@ document.querySelector('#moreaboutme').addEventListener('mouseover', () => {
     }
 })
 
-document.querySelector('#moreaboutme').addEventListener('mouseout', () => {
+aboutMe.addEventListener('mouseout', () => {
     if(spanOne.style.visibility === 'hidden') {
         spanOne.style.visibility = 'visible';
     }else {
@@ -35,7 +45,7 @@ document.querySelector('#moreaboutme').addEventListener('mouseout', () => {
     }
 })
 
-document.querySelector('#resume').addEventListener('mouseover', () => {
+resume.addEventListener('mouseover', () => {
     if(spanTwo.style.visibility === 'visible') {
         spanTwo.style.visibility = 'hidden';
     }else {
@@ -43,7 +53,7 @@ document.querySelector('#resume').addEventListener('mouseover', () => {
     }
 })
 
-document.querySelector('#resume').addEventListener('mouseout', () => {
+resume.addEventListener('mouseout', () => {
     if(spanTwo.style.visibility === 'hidden') {
         spanTwo.style.visibility = 'visible';
     }else {
@@ -51,7 +61,7 @@ document.querySelector('#resume').addEventListener('mouseout', () => {
     }
 })
 
-document.querySelector('#viewSrc').addEventListener('mouseover', () => {
+viewSrc.addEventListener('mouseover', () => {
     if(spanThree.style.visibility === 'visible') {
         spanThree.style.visibility = 'hidden';
     }else {
@@ -59,7 +69,7 @@ document.querySelector('#viewSrc').addEventListener('mouseover', () => {
     }
 })
 
-document.querySelector('#viewSrc').addEventListener('mouseout', () => {
+viewSrc.addEventListener('mouseout', () => {
     if(spanThree.style.visibility === 'hidden') {
         spanThree.style.visibility = 'visible';
     }else {
