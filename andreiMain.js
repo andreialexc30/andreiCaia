@@ -84,3 +84,11 @@ document.getElementById('projectsbutton').addEventListener('click', () => {
 document.getElementById('moreaboutme').addEventListener('click', () => {
     location.href = 'pages/about.html'
 })
+
+document.getElementById('viewSrc').addEventListener('click', () => {
+    location.href= 'https://github.com/andreialexc30/andreiCaia'
+})
+
+document.getElementById('resume').addEventListener('click', () => {
+    location.href = 'https://docs.google.com/document/d/1K4C5YQ2vsc3O27Q2ZUnh_Mos28qmkAKicp6oFvkRm8M/edit?usp=sharing'
+})
