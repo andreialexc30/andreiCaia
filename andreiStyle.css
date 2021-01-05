@@ -410,7 +410,6 @@ header {
     justify-content: center;
     align-items: center;
     background: #fbfbfb;
-    height: 35em;
 }
 
 .skills_container {
@@ -748,10 +747,9 @@ header {
 }
 
 .projectboxtwo {
-    border: 1px solid;
     width: 20em;
     display: flex;
-    box-shadow: 5px 5px 22px gray;
+    box-shadow: 5px 5px 25px 5px #6a6868f0;
     border-radius: 2em;
     height: 100%;
 }
@@ -882,7 +880,7 @@ header {
 
 .biography {
     background: url(imgs/wheelthingsbg.jpg);
-    background-size: cover;
+    background-size: auto;
 }
 
 .wrapping {
@@ -1083,7 +1081,7 @@ header {
     font-size: 1.25em;
     box-shadow: 5px 2px 2.5px 2px #868686b5;
     background: linear-gradient(
-        white, white 50%,#72c7f0 50%,#72c7f0
+        #f4f2f2, #f4f2f2 50%,#72c7f0 50%,#72c7f0
     );
     transition: all 0.2s ease;
     background-size: 100% 200%;
@@ -1194,6 +1192,149 @@ header {
     .nav-link {
         padding: 0;
         text-transform: none;
+    }
+}
+
+  /* Welcome page */
+@media screen and (min-width: 250px) and (max-width: 768px) {
+    .textbox {
+        margin: 0;
+    }
+
+    .topborder {
+        max-width: 400px;
+        width: 100%
+    }
+
+    .bottomborder {
+        max-width: 600px;
+        width: 100%;
+    }
+
+    #welcome {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2em;
+    }
+
+    .containerofbtns {
+        flex-direction: column;
+        font-size: 1em;
+    }
+
+    .mainBtns {
+        padding-bottom: 0;
+    }
+
+    /* Projects */
+    #projects_title {
+        text-align: center;
+    }
+    
+    #web_title {
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .icons {
+        flex-direction: column;
+        padding-top: 1em;
+    }
+
+    #tools_title {
+        width: 60%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .tools {
+        flex-direction: column;
+        text-align: center;
+        padding-top: 1em;
+    }
+}
+
+    /* Projects page */
+@media screen and (min-width: 250px) and (max-width: 768px) {
+    .projectsintroduction {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .projectstitle {
+        padding: 0;
+    }
+
+    .twocasebox {
+        padding-top: 1em;
+    }
+
+    .appdesc {
+        margin: 14px;
+        text-align: center;
+    }
+
+    .endofshowcase {
+        margin: 12px;
+        padding: 0;
+        text-align: center;
+    }
+
+    .contactborder {
+        width: 100%;
+    }
+
+    .contact_list {
+        justify-content: space-evenly;
+        margin: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .contact_item {
+        margin: 12px;
+    }
+}
+
+/* About page */
+@media screen and (min-width: 200px) and (max-width: 768px) {
+    .wrapping {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .shortintro {
+        margin: 12px 16px;
+    }
+
+    .introheader {
+        width: 100%;
+    }
+}
+
+/* Contact page */
+@media screen and (min-width: 200px) and (max-width: 768px) {
+    .contactmeformalwrap, .contactcontainer {
+        display: block;
+    }
+
+    .contacttile {
+        font-size: 16px;
+    }
+}
+
+
+@media screen and (min-width: 200px) and (max-width: 650px) {
+    .projectboxtwo img, .projectboxtwo {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .bottomborder {
+        float: right;
+        width: 75%;
     }
 }
 
