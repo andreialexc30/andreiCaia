@@ -935,7 +935,6 @@ header {
     box-shadow: 2px 2px 10px #201e1efa;
 }
 
-
 .aboutme {
     margin: 1.5em;
 }
@@ -1030,7 +1029,6 @@ header {
     background-color: #43494a;
     border-color: #020202;
 }
-
 
 /* Contact page */
 .contact {
@@ -1342,7 +1340,6 @@ header {
     }
 }
 
-
 @media screen and (min-width: 200px) and (max-width: 650px) {
     .projectboxtwo img, .projectboxtwo {
         display: none;
@@ -1355,17 +1352,3 @@ header {
         width: 75%;
     }
 }
-
-
-
-/* #9b079b good shade of purple
-#201f1f good border shade
- #0d0d0d good black shade
- #262424 another good black shade
- #221408b3 nice brown shade
- #3838ee cool blue shade
- #553e3e interesting brown color
- #4948483f butn
-*/
-/* js yellow #dfdf10, #ffff1b
-#970f97*/
