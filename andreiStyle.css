@@ -1315,6 +1315,24 @@ header {
 
 /* Contact page */
 @media screen and (min-width: 200px) and (max-width: 768px) {
+    .contact {
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+    }
+
+    .reachme {
+        padding: 0;
+        margin: 0;
+        margin-left: 2px;
+        margin-right: 2px;
+        text-align: center;
+        font-size: 8.5px;
+    }
+
+    .contactmebg {
+        padding-bottom: 1.5em;
+    }
+
     .contactmeformalwrap, .contactcontainer {
         display: block;
     }
