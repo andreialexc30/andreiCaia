@@ -1228,6 +1228,10 @@ header {
     #projects_title {
         text-align: center;
     }
+
+    .card-description {
+        padding-top: 0;
+    }
     
     #web_title {
         width: 50%;
